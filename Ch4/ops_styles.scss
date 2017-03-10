@@ -1,0 +1,15 @@
+/*
+ * SASS Operators example
+ */
+$myColor: #34495e;
+$basepadding: 10px;
+$basethickness: 4px;
+
+.settning {
+    color: $myColor;
+    border: $basethickness solid $myColor;
+    padding: $basepadding;
+}
+
+$gender: boy;
+$myColor: if($gender=="boy",#3498db, #f00);

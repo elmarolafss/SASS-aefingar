@@ -1,0 +1,28 @@
+/*
+ * SASS allows style rules to be nested inside of other rules, which causes
+ * the nested rules to only apply within the outer rule's selector
+ */
+body {
+  font-family: Helvetica, Arial, sans-serif; }
+  body p {
+    font-family: Times; }
+  body p#settning {
+    font-family: "Courier New"; }
+
+#settning {
+  color: #3498db;
+  border: 5px solid #34495e;
+  padding: 20px; }
+  #settning:hover {
+    color: blue;
+    padding: 50px;
+    font-family: "Arial"; }
+
+header {
+  color: #2ecc71; }
+
+#list1:hover {
+  padding: 2px;
+  border: 5px solid #3498db; }
+
+/*# sourceMappingURL=nested_styles.css.map */

@@ -1,0 +1,27 @@
+/*
+ * Using functions in SASS
+ */
+h1 {
+  color: #2ecc71;
+  background-color: #828282; }
+
+h2 {
+  color: #7ee2a8; }
+
+h3 {
+  color: #a8ebc4; }
+
+h4 {
+  color: #d1f5e0; }
+
+#mypara {
+  -mox-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -ms-border-radius: 5px;
+  border-radius: 5px;
+  border-color: #6bc792;
+  border-width: 2px;
+  border-style: solid;
+  padding: 10px; }
+
+/*# sourceMappingURL=funcs_styles.css.map */

@@ -1,0 +1,21 @@
+@charset "UTF-8";
+/* 
+ * SASS Variables are defined with a $ character
+ * and can have different kinds of data types: color, string, boolean, multi-value
+ */
+/* 
+ * SASS Variables are defined with a $ character
+ * and can have different kinds of data types: color, string, boolean, multi-value
+ */
+h1, h2 {
+  color: navy; }
+
+#mypara {
+  font-size: 25px;
+  border: 1px solid navy;
+  padding: 15px 15px 15px 15px; }
+
+#mypara:after {
+  content: " bættur texti"; }
+
+/*# sourceMappingURL=import_styles.css.map */
